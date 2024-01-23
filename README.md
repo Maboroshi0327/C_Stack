@@ -1,6 +1,6 @@
-# 練習用 C 寫出 Stack
+## 練習用 C 寫出 Stack
 
-# Output:
+### Output:
 50\
 40\
 30\
