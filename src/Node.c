@@ -6,11 +6,10 @@
 Node* new_Node(int value)
 {
     Node* node = malloc(sizeof(Node));
-
     if (node == NULL)
     {
-        fprintf(stderr, "Error: Node* node = malloc(sizeof(Node))\n");
-        exit(1);
+        perror("Error in new_Node");
+        exit(EXIT_FAILURE);
     }
 
     node->value = value;
