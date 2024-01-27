@@ -1,4 +1,5 @@
 #ifndef _Node_H_
+#define _Node_H_
 
 #ifdef __cplusplus
 extern "C" {

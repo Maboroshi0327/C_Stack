@@ -1,4 +1,5 @@
 #ifndef _Stack_H_
+#define _Stack_H_
 
 #ifdef __cplusplus
 extern "C" {
